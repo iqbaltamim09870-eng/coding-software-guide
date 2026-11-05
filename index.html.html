@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Compare the best free coding software for students, including Visual Studio Code, Code::Blocks, Thonny and PyCharm. Find the right tool for your first programming projects.">
+  <meta name="theme-color" content="#101827">
+  <title>Best Free Coding Software for Students (2026) | CodeStart</title>
+  <style>
+    :root {
+      --bg: #f5f7fb; --surface: #fff; --ink: #172033; --muted: #5f6b80;
+      --line: #e4e9f1; --brand: #6558e8; --brand-dark: #4c40c8;
+      --soft: #eeecff; --green: #16794b; --shadow: 0 14px 38px rgba(24,35,62,.08);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.7 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; }
+    a { color: var(--brand-dark); }
+    .wrap { width: min(1080px, calc(100% - 36px)); margin: auto; }
+    header { background: #101827; color: white; }
+    .nav { min-height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 18px; }
+    .logo { color: white; text-decoration: none; font-weight: 800; font-size: 1.15rem; letter-spacing: -.4px; }
+    .logo span { color: #aaa3ff; }
+    nav { display: flex; gap: 22px; flex-wrap: wrap; }
+    nav a { color: #d8dcef; text-decoration: none; font-size: .92rem; }
+    nav a:hover { color: white; }
+    .hero { padding: 76px 0 82px; background: radial-gradient(circle at 80% 15%, #39316f 0, transparent 35%), linear-gradient(135deg,#101827,#202b49); color: white; }
+    .eyebrow { display: inline-block; padding: 5px 12px; border: 1px solid #6962a8; border-radius: 999px; color: #d6d2ff; font-size: .8rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+    h1 { max-width: 790px; margin: 20px 0 16px; font-size: clamp(2.25rem,6vw,4.1rem); line-height: 1.08; letter-spacing: -2px; }
+    .hero p { max-width: 680px; color: #d5d9e8; font-size: 1.12rem; margin: 0 0 26px; }
+    .hero-link { display: inline-block; padding: 11px 18px; background: #aaa3ff; color: #17152f; border-radius: 10px; text-decoration: none; font-weight: 750; }
+    main { padding: 46px 0 70px; }
+    section { margin: 0 0 44px; }
+    h2 { margin: 0 0 12px; font-size: clamp(1.55rem,3vw,2.1rem); line-height: 1.2; letter-spacing: -.7px; }
+    h3 { margin: 0 0 8px; font-size: 1.25rem; }
+    .intro { max-width: 780px; color: var(--muted); margin: 0 0 22px; }
+    .callout { padding: 19px 21px; border: 1px solid #dcd8ff; background: var(--soft); border-radius: 14px; }
+    .callout strong { color: #352c9b; }
+    .grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 18px; }
+    .card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 23px; box-shadow: var(--shadow); }
+    .card-top { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
+    .tag { color: var(--green); background: #e8f6ef; padding: 4px 9px; border-radius: 999px; font-size: .75rem; font-weight: 750; white-space: nowrap; }
+    .type { color: var(--muted); font-size: .88rem; margin: -4px 0 10px; }
+    .card p { color: var(--muted); margin: 0 0 12px; }
+    .card ul { padding-left: 20px; margin: 8px 0 15px; }
+    .card li { margin: 4px 0; }
+    .official { display: inline-block; font-weight: 700; text-decoration: none; }
+    .official:hover { text-decoration: underline; }
+    .table-wrap { overflow-x: auto; background: white; border: 1px solid var(--line); border-radius: 14px; }
+    table { border-collapse: collapse; width: 100%; min-width: 570px; }
+    th,td { text-align: left; padding: 13px 15px; border-bottom: 1px solid var(--line); }
+    th { background: #f0f1fa; font-size: .88rem; }
+    tr:last-child td { border-bottom: 0; }
+    .steps { counter-reset: step; display: grid; gap: 12px; }
+    .step { background: white; border: 1px solid var(--line); border-radius: 12px; padding: 15px 18px 15px 54px; position: relative; }
+    .step:before { counter-increment: step; content: counter(step); position: absolute; left: 17px; top: 15px; width: 25px; height: 25px; border-radius: 50%; display: grid; place-items: center; color: white; background: var(--brand); font-weight: 800; font-size: .85rem; }
+    .faq { background: white; border: 1px solid var(--line); border-radius: 12px; padding: 17px 19px; margin: 10px 0; }
+    .faq h3 { font-size: 1.05rem; }
+    .faq p { color: var(--muted); margin: 0; }
+    .note { color: var(--muted); font-size: .9rem; }
+    footer { background: #101827; color: #c7ccda; padding: 27px 0; font-size: .9rem; }
+    footer a { color: #c9c4ff; }
+    @media (max-width: 700px) {
+      .nav { align-items: flex-start; flex-direction: column; padding: 17px 0; }
+      nav { gap: 14px; }
+      .hero { padding: 55px 0 60px; }
+      .grid { grid-template-columns: 1fr; }
+      h1 { letter-spacing: -1.2px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="logo" href="#">Code<span>Start</span></a>
+      <nav aria-label="Main navigation">
+        <a href="#tools">Coding tools</a>
+        <a href="#comparison">Compare</a>
+        <a href="#getting-started">Getting started</a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="wrap">
+      <span class="eyebrow">Student-friendly guide · 2026</span>
+      <h1>Best Free Coding Software for Students</h1>
+      <p>You do not need expensive software to learn programming. These free editors and development environments can help you write, run and debug code while you study.</p>
+      <a class="hero-link" href="#tools">Explore the tools ↓</a>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <section>
+      <h2>Which coding software should you choose?</h2>
+      <p class="intro">The best choice depends on the programming language you are learning, your computer and how much setup you are comfortable with. Some tools are code editors that you extend with add-ons; others are full integrated development environments (IDEs).</p>
+      <div class="callout"><strong>Quick recommendation:</strong> Visual Studio Code is a flexible starting point for many languages. If your course focuses on C or C++, Code::Blocks is another option. For a first experience with Python, try Thonny.</div>
+    </section>
+
+    <section id="tools">
+      <h2>4 free coding tools worth trying</h2>
+      <p class="intro">These tools have free options suitable for learning. Check each official website for current system requirements and licensing details before installing.</p>
+      <div class="grid">
+        <article class="card">
+          <div class="card-top"><h3>1. Visual Studio Code</h3><span class="tag">Best all-rounder</span></div>
+          <div class="type">Code editor · Windows, macOS and Linux</div>
+          <p>Visual Studio Code (VS Code) is a lightweight, extensible editor. Add language extensions and tools to work with many programming languages in one place.</p>
+          <ul>
+            <li>Useful for C, C++, Python, JavaScript, HTML and CSS.</li>
+            <li>Built-in terminal, debugging support and Git features.</li>
+            <li>Extensions let you customize your setup.</li>
+          </ul>
+          <p><strong>Keep in mind:</strong> You may need to install a compiler or language runtime separately. VS Code is an editor, not a compiler.</p>
+          <a class="official" href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer">Visit the official VS Code website ↗</a>
+        </article>
+
+        <article class="card">
+          <div class="card-top"><h3>2. Code::Blocks</h3><span class="tag">For C and C++</span></div>
+          <div class="type">Integrated development environment · Windows, macOS and Linux</div>
+          <p>Code::Blocks is a free IDE designed for C, C++ and Fortran. It brings common coding, building and debugging tools into one application.</p>
+          <ul>
+            <li>Designed around C and C++ projects.</li>
+            <li>Includes a project system and debugger support.</li>
+            <li>Can be extended with plugins.</li>
+          </ul>
+          <p><strong>Keep in mind:</strong> On Windows, choose an installer that includes a supported compiler if you do not already have one.</p>
+          <a class="official" href="https://www.codeblocks.org/" target="_blank" rel="noopener noreferrer">Visit the official Code::Blocks website ↗</a>
+        </article>
+
+        <article class="card">
+          <div class="card-top"><h3>3. Thonny</h3><span class="tag">Best for Python beginners</span></div>
+          <div class="type">Python IDE · Windows, macOS and Linux</div>
+          <p>Thonny is a beginner-friendly Python IDE. Its simple interface and step-through debugger can make it easier to see how a program runs.</p>
+          <ul>
+            <li>Simple interface for learning Python.</li>
+            <li>Beginner-friendly debugging tools.</li>
+            <li>Python setup is straightforward.</li>
+          </ul>
+          <p><strong>Keep in mind:</strong> It is focused on Python, so it is not the best single tool for every language.</p>
+          <a class="official" href="https://thonny.org/" target="_blank" rel="noopener noreferrer">Visit the official Thonny website ↗</a>
+        </article>
+
+        <article class="card">
+          <div class="card-top"><h3>4. PyCharm</h3><span class="tag">Python projects</span></div>
+          <div class="type">Python IDE · Windows, macOS and Linux</div>
+          <p>PyCharm is a Python-focused IDE from JetBrains. It offers code navigation, editing and debugging features. JetBrains provides free learning and teaching access, as well as a free core feature set.</p>
+          <ul>
+            <li>Focused tools for Python development.</li>
+            <li>Code navigation and debugging features.</li>
+            <li>Useful as your Python projects become larger.</li>
+          </ul>
+          <p><strong>Keep in mind:</strong> Some advanced features and services may require a paid plan. Check the current edition details.</p>
+          <a class="official" href="https://www.jetbrains.com/pycharm/" target="_blank" rel="noopener noreferrer">Visit the official PyCharm website ↗</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="comparison">
+      <h2>Quick comparison</h2>
+      <p class="intro">Use this table to narrow down your choice. “Best for” is a starting suggestion, not a strict limitation.</p>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Software</th><th>Best for</th><th>Type</th><th>Beginner-friendly?</th></tr></thead>
+          <tbody>
+            <tr><td>VS Code</td><td>Many languages</td><td>Code editor</td><td>Yes, after setup</td></tr>
+            <tr><td>Code::Blocks</td><td>C and C++</td><td>IDE</td><td>Yes</td></tr>
+            <tr><td>Thonny</td><td>Learning Python</td><td>IDE</td><td>Very</td></tr>
+            <tr><td>PyCharm</td><td>Python projects</td><td>IDE</td><td>Yes, though it has more features to learn</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="getting-started">
+      <h2>How to get started without spending money</h2>
+      <div class="steps">
+        <div class="step"><strong>Choose one tool.</strong> Start with the software that matches the language in your course.</div>
+        <div class="step"><strong>Download it from its official website.</strong> Avoid unofficial installers and download mirrors.</div>
+        <div class="step"><strong>Install the language tools you need.</strong> For example, C and C++ require a compiler; a code editor alone does not compile programs.</div>
+        <div class="step"><strong>Write a small first program.</strong> Try printing a message, then practise variables, conditions, loops and functions.</div>
+        <div class="step"><strong>Learn to debug.</strong> Read error messages and use breakpoints instead of changing code randomly.</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Frequently asked questions</h2>
+      <div class="faq"><h3>Is VS Code completely free?</h3><p>Microsoft states that Visual Studio Code is free for private and commercial use. Some extensions or connected services may have their own terms or charges.</p></div>
+      <div class="faq"><h3>Can I learn programming without paying for software?</h3><p>Yes. The tools in this guide have free options that are sufficient for many student projects. You can learn the fundamentals without buying a paid editor.</p></div>
+      <div class="faq"><h3>Is a code editor the same as a compiler?</h3><p>No. A code editor helps you write and manage source code. A compiler translates source code into a program. Some IDE installers bundle a compiler, but VS Code usually needs you to install the relevant language tools separately.</p></div>
+      <div class="faq"><h3>Which one should a complete beginner install first?</h3><p>Choose based on your first language: Thonny for introductory Python, Code::Blocks for a straightforward C/C++ IDE, or VS Code if you want one flexible editor for several languages.</p></div>
+    </section>
+
+    <section>
+      <p class="note"><strong>Editorial note:</strong> Software features, free-plan limits and licensing can change. This guide links to official project websites; review their latest terms before downloading or using a tool.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <strong>CodeStart</strong> · Practical coding guides for students
+      <p style="margin:7px 0 0">This is an independent educational guide and is not affiliated with the software publishers mentioned above.</p>
+    </div>
+  </footer>
+</body>
+</html>
